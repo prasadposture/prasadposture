@@ -1,4 +1,4 @@
-- 👋 Hi, I’m `@prasadposture`
+- 👋 Hi, I’m `@prasadposture😎`
 - 👀 I’m interested in Data Analytics, Machine Learning and Astronomy
 - 🌱 I’m currently learning Machine Learning Algorithms
 - 💞️ I’m looking to collaborate on any topic related to Data Science, Machine Learning and Aritificial Intelligence
