@@ -13,6 +13,7 @@ Python Libraries : Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly, Scikit
 Data Skills : Data Preparation, Data Visualization, Exploratory Data Analysis, Predictive Analysis<br>
 MS Office : MS-Word, MS-Excel, MS-PowerPoint<br>
 Maths Skills : Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
+Soft Skills : Presentation Skills, Communication Skills, Time Management, Problem Solving, Critical Thinking, Content Writing
 <br>
 <h2> Courses </h2>
 
