@@ -14,7 +14,7 @@ Data Skills : Data Preparation, Data Visualization, Exploratory Data Analysis, P
 MS Office : MS-Word, MS-Excel, MS-PowerPoint<br>
 Maths Skills : Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
 <br>
-<h2> Certificate Courses </h2>
+<h2> Courses </h2>
 
 
 
