@@ -5,7 +5,7 @@
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
 </div>
 <h2 > About Me </h2>
-I'm a maths graduate from Jai Hind College (AY 2021-22). Along with mathematics I had Data Analytics for four semesters and for the applied component I had programming languages such as Python and R. I have been upskilling myself from last one year through the various online resources. I have done multiple courses related to data analytics and machine learning, Also built projects for those courses(check the pinned repositories). I am a quick learner and I like to learn new technologies. In the free time, I read books or watch educational content on you tube. 
+I'm a maths graduate from Jai Hind College (AY 2021-22). Along with mathematics I had Data Analytics for four semesters and for the applied component I had programming languages such as Python and R. I have been upskilling myself from last one year through the various online resources. I have done multiple courses related to data analytics and machine learning, Also built projects for those courses(check the pinned repositories).I am looking for an opportunity which will help me build my career in the field of data science. I'm very hardworking and focused person. I enjoy playing with data, drawing insights from it and making predictive models. I am a quick learner and I like to learn new technologies. In the free time, I read books or watch educational content on you tube. 
 <br>
 <h2> Skills </h2>
 Languages : Python, R, SQL<br>
