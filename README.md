@@ -10,7 +10,7 @@ I'm a maths graduate from Jai Hind College (AY 2021-22). Along with mathematics 
 <h2> Skills </h2>
 Tech Skills : Python, R, SQL<br>
 Python Libraries : Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly, Scikit-Learn<br>
-Data Skills : Data Preparation, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
+Data Skills : Data Cleaning, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
 MS Office : MS-Word, MS-Excel, MS-PowerPoint<br>
 Maths Skills : Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
 Soft Skills : Presentation Skills, Communication Skills, Time Management, Problem Solving, Critical Thinking, Content Writing
