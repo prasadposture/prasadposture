@@ -23,6 +23,6 @@ Soft Skills : Presentation Skills, Communication Skills, Time Management, Proble
 * [Data Analytics with Python](https://drive.google.com/file/d/1l6aKdzuxLXTd1IvpoQirhfJGbWHhMh4Y/view) by MyCaptain
 
 <h2> Achievements </h2>
-* Been on the achievers list of Jai Hind College, Mumbai
-* Achieved highest rank of 708 among 260k+ kaggle notebook experts
-* AIR 216 in IIT JAM Physics
+<b>Been on the achievers list of Jai Hind College, Mumbai<b><br>
+<b>Achieved highest rank of 708 among 260k+ kaggle notebook experts<b><br>
+<b>AIR 216 in IIT JAM Physics<b>
