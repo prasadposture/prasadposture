@@ -8,12 +8,12 @@
 I'm a maths graduate from Jai Hind College (AY 2021-22). Along with mathematics I had Data Analytics for four semesters and for the applied component I had programming languages such as Python and R. I have been upskilling myself from last one year through the various online resources. I have done multiple courses related to data analytics and machine learning, Also built projects for those courses(check the pinned repositories).I am looking for an opportunity which will help me build my career in the field of data science. I'm very hardworking and focused person. I enjoy playing with data, drawing insights from it and making predictive models. I am a quick learner and I like to learn new technologies. My aim is to be in the field of data driven astronomy where I can use my knowledge of astronomy, data science and mathematics for space research. In free time, I read books and watch educational content on you tube. 
 <br>
 <h2> Skills </h2>
-Tech Skills : Python, R, SQL<br>
-Python Libraries : Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly, Scikit-Learn<br>
-Data Skills : Data Cleaning, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
-MS Office : MS-Word, MS-Excel, MS-PowerPoint<br>
-Maths Skills : Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
-Soft Skills : Presentation Skills, Communication Skills, Time Management, Problem Solving, Critical Thinking, Content Writing
+<b>Tech Skills :</b> Python, R, SQL<br>
+<b>Python Libraries :</b> Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly, Scikit-Learn<br>
+<b>Data Skills :</b> Data Cleaning, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
+<b>MS Office :</b> MS-Word, MS-Excel, MS-PowerPoint<br>
+<b>Maths Skills :</b> Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
+<b>Soft Skills :</b> Presentation Skills, Communication Skills, Time Management, Problem Solving, Critical Thinking, Content Writing
 <br>
 <h2> Courses </h2>
 
