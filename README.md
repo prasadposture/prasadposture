@@ -5,7 +5,15 @@
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
 </div>
 <h2 > About Me </h2>
-I graduated in the field of mathematics with data analytics. I had Python and R-Programming in the applied component. In the three years of degree program I learned about calculus, linear & abstract algebra, real & complex analysis, metric spaces. The two years data analytics course included topics like statistics, probability, databases, machine learning algorithms, introdctory artificial intelligence. I built a project that predicts whether the water is potable or not based on its constituents. I enjoy playing with data, I like to generate insights from it and to make predictive models. I am a quick learner and I like to learn new technologies. My aim is to be in the field of data driven astronomy where I can use my knowledge of astronomy, data science and mathematics for space research. In free time, I read fictional books and watch educational content on you tube. 
+I graduated in the field of mathematics with data analytics.
+ I had Python and R-Programming in the applied component. 
+In the three years of degree program I learned about calculus,
+ linear & abstract algebra, real & complex analysis, metric spaces.
+ The two years data analytics course included topics like statistics, probability, databases,
+ machine learning algorithms, introdctory artificial intelligence.
+ I built a project that predicts whether the water is potable or not based on its constituents. 
+I enjoy playing with data, I like to generate insights from it and to make predictive models.
+ I am a quick learner and I like to learn new technologies. My aim is to be in the field of data driven astronomy where I can use my knowledge of astronomy, data science and mathematics for space research.
 <br>
 <h2> Skills </h2>
 <b>Tech Skills :</b> Python, R, SQL<br>
