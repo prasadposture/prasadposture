@@ -10,8 +10,7 @@ I graduated in the field of mathematics with data analytics.
 In the three years of degree program I learned about calculus,
  linear & abstract algebra, real & complex analysis, metric spaces.
  The two years data analytics course included topics like statistics, probability, databases,
- machine learning algorithms, introdctory artificial intelligence.
- I built a project that predicts whether the water is potable or not based on its constituents. 
+ machine learning algorithms, introdctory artificial intelligence. 
 I enjoy playing with data, I like to generate insights from it and to make predictive models.
  I am a quick learner and I like to learn new technologies. My aim is to be in the field of data driven astronomy where I can use my knowledge of astronomy, data science and mathematics for space research.
 <br>
