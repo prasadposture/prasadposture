@@ -28,6 +28,7 @@ I enjoy playing with data, I like to generate insights from it and to make predi
 * [Data Analytics with Pyton : from Zero to Pandas](https://jovian.com/certificate/MFQTOOJVGI) by Jovian.ai
 * [Artificial Intelligence](https://drive.google.com/file/d/1oe2VOHz4Jp9FrKoiiKCtJPQqB9U8uOWm/view) by MyCaptain
 * [Data Analytics with Python](https://drive.google.com/file/d/1l6aKdzuxLXTd1IvpoQirhfJGbWHhMh4Y/view) by MyCaptain
+* [Power BI for Beginners](https://drive.google.com/file/d/1OeJaKndjOAfAvBMx4nM_MGYrwjb9yTKq/view) by Simplilearn.
 
 <h2> Achievements </h2>
 <b>Been on the achievers list of Jai Hind College, Mumbai<b><br>
