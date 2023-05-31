@@ -40,7 +40,7 @@ with a:
 <h1 style="font-size:330%; text-align:center; color:#ffffff; font-family:Times New Roman">PRASAD POSTURE</h1>
 <br>
 
-<p style="font-family:monospace; font-size:120%; text-align:center; color:#ffffff;">"Data Analyst, Python Programmer, <br>
+<p style="font-family:monospace; font-size:120%; text-align:center; color:#ffffff;">"Freelance Data Analyst, Python Programmer, <br>
 Notebook Expert, Astronomy Enthusiast."<br>
 <br>
 <a href='https://www.linkedin.com/in/prasad-posture-6a3a77215/' target='blank'><img align='center' src='https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/'  height='20' width='100' /></a>
@@ -54,12 +54,12 @@ Notebook Expert, Astronomy Enthusiast."<br>
 Contact me for<br></p>
 <p>
 <b> Question Based Analysis, &nbsp Exploratory Data Analysis<br>
-    Interactive Dashboards, &nbsp Predictive Modeling,&nbsp Web Applications
+    Interactive Dashboards, &nbsp Web Applications, &nbsp Predictive Modeling
 </b>
 </p>
 '''
     st.markdown(content, unsafe_allow_html=True)
 
 with b:
-    img =  Image.open('bg.JPG')
+    img =  Image.open('images\cbg.jpg')
     st.image(img)
