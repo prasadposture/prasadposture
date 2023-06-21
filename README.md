@@ -6,7 +6,7 @@
 </div>
 <h2 > About Me </h2>
 I graduated in the field of mathematics with data analytics.
- I had Python and R-Programming in the applied component. 
+ I had Python and R-Programming for the applied component. 
 In the three years of degree program I learned about calculus,
  linear & abstract algebra, real & complex analysis, metric spaces.
  The two years data analytics course included topics like statistics, probability, databases,
