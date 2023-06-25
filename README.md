@@ -15,7 +15,7 @@ I enjoy playing with data, I like to generate insights from it and to make predi
  I am a quick learner and I like to learn new technologies. My aim is to be in the field of data driven astronomy where I can use my knowledge of astronomy, data science and mathematics for space research.
 <br>
 <h2> Skills </h2>
-<b>Tech Skills :</b> Python, R, SQL<br>
+<b>Tech Skills :</b> Python, R, SQL, Tableau<br>
 <b>Python Libraries :</b> Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly, Scikit-Learn<br>
 <b>Data Skills :</b> Data Cleaning, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
 <b>MS Office :</b> MS-Word, MS-Excel, MS-PowerPoint, MS-Power BI<br>
