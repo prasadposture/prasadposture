@@ -19,7 +19,7 @@ I enjoy playing with data, I like to generate insights from it and to make predi
 <b>Python Libraries:</b> Pandas, NumPy, Matplotlib, Seaborn, Streamlight, Plotly, Scikit-Learn<br>
 <b>Data Skills:</b> Data Cleaning, Data Visualization, Exploratory Data Analysis, Predictive Analysis (MLA), Web Scraping <br>
 <b>MS Office :</b> MS-Word, MS-Excel, MS-PowerPoint, MS-Power BI<br>
-<b>Maths Skills:</b> Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Physics<br>
+<b>Maths Skills:</b> Probability, Statistics, Calculus, Algebra, Real and Complex Analysis, Mathematical Methods<br>
 <b>Soft Skills:</b> Presentation Skills, Communication Skills, Time Management, Problem Solving, Critical Thinking, Content Writing
 <br>
 <h2> Courses </h2>
