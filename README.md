@@ -28,6 +28,7 @@ I enjoy playing with data, I like to generate insights from it and to make predi
 * [Data Analytics with Python: from Zero to Pandas](https://jovian.com/certificate/MFQTOOJVGI) by Jovian.ai
 * [Artificial Intelligence](https://drive.google.com/file/d/1oe2VOHz4Jp9FrKoiiKCtJPQqB9U8uOWm/view) by MyCaptain
 * [Data Analytics with Python](https://drive.google.com/file/d/1l6aKdzuxLXTd1IvpoQirhfJGbWHhMh4Y/view) by MyCaptain
+* [Data Analytics with Excel](https://drive.google.com/file/d/1W5hc0f0CWodbbIwdvwBfiBR3Cwu__-QY/view) by Great Learning
 * [Introduction to SQL](https://www.kaggle.com/learn/certification/prasadposture121/intro-to-sql) by Kaggle
 * [Power BI for Beginners](https://drive.google.com/file/d/1OeJaKndjOAfAvBMx4nM_MGYrwjb9yTKq/view) by Simplilearn.
 
