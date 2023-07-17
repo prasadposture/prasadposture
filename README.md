@@ -1,7 +1,11 @@
 ![GitHub](https://user-images.githubusercontent.com/95558446/223696873-15982f95-385e-4f58-b8ce-f7a0ccc43664.png)
 <div align='center'>
 <a href="https://www.linkedin.com/in/prasad-posture-6a3a77215/" target="blank"><img align="center" src="https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/" alt="Prasad Posture" height="20" width="100" /></a>
-<a href="https://github.com/prasadposture" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture-black?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/prasadposture" alt="prasadposture" height="20" width="100" /></a>
+ 
+<a href="https://prasadposture.streamlit.app/">
+<img src="https://raw.githubusercontent.com/prasadposture/prasadposture/main/LOGO%202.png" alt="Portfolio Website" style="width:100px;height:20px;border:2px solid red;">
+</a>
+
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
 </div>
 <h2 > About Me </h2>
