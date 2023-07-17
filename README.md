@@ -3,7 +3,7 @@
 <a href="https://www.linkedin.com/in/prasad-posture-6a3a77215/" target="blank"><img align="center" src="https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/" alt="Prasad Posture" height="20" width="100" /></a>
  
 <a href="https://prasadposture.streamlit.app/">
-<img src="https://raw.githubusercontent.com/prasadposture/prasadposture/main/LOGO%202.png" alt="Portfolio Website" style="width:100px;height:20px;border:2px solid red;">
+<img src="https://raw.githubusercontent.com/prasadposture/prasadposture/main/LOGO%202.png" alt="Portfolio Website" style="width:90px;height:17px;">
 </a>
 
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
