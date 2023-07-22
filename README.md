@@ -8,7 +8,7 @@
         </a>
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
 </div>
-<h3 align="center">"Curiosity Is The Essence Of Our Existence."</h3>
+<h3 align="center">"Curiosity Is The Essence Of Our Existence"</h3>
 <h2 > About Me </h2>
 I graduated in the field of mathematics with data analytics.
  I had Python and R-Programming for the applied component. 
