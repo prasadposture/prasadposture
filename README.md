@@ -37,7 +37,7 @@ I enjoy playing with data, I like to generate insights from it and to make predi
 * [Introduction to SQL](https://www.kaggle.com/learn/certification/prasadposture121/intro-to-sql) by Kaggle
 * [Power BI for Beginners](https://drive.google.com/file/d/1OeJaKndjOAfAvBMx4nM_MGYrwjb9yTKq/view) by Simplilearn.
 
-<h2> Achievements </h2>
+<h2> Achievements: </h2>
 <b> Been on the achiever's list of Jai Hind College, Mumbai<br>
 Achieved the highest rank of 708 among 286k+ Kaggle notebook experts<br>
 AIR 216 in IIT JAM Physics &  joined IIT Indore for M.Sc. Astronomy</b>
