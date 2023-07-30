@@ -17,7 +17,7 @@ In the three years of a degree program, I learned about calculus,
  The two years data analytics course included topics like statistics, probability, databases,
  machine learning algorithms, and introductory artificial intelligence. 
 I enjoy playing with data, I like to generate insights from it and to make predictive models.
- I am a quick learner and I like to learn new technologies. My aim is to be in the field of data-driven astronomy where I can use my knowledge of astronomy, data science, and mathematics for space research.
+ I am a quick learner and I like to learn new technologies. I'm currently persuing masters in astronomy in IIT Indore and my aim is to be in the field of data-driven astronomy where I can use my knowledge of astronomy, data science, and mathematics for space research.
 <br>
 <h2> Skills </h2>
 <b>Tech Skills :</b> Python, R, SQL, Tableau<br>
