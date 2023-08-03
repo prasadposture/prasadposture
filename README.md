@@ -39,5 +39,5 @@ I enjoy playing with data, I like to generate insights from it and to make predi
 
 <h2> Achievements </h2>
 <b> Been on the achiever's list of Jai Hind College, Mumbai<br>
-Achieved the highest rank of 708 among 286k+ Kaggle notebook experts<br>
+Achieved the highest rank of 708 among 290k+ Kaggle notebook experts<br>
 AIR 216 in IIT JAM Physics and joined M.Sc.Astronomy in IIT Indore</b>
