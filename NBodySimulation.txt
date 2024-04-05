@@ -1,0 +1,83 @@
+(py38) [idies@cd263da0e476 ~]$ cd workspace/
+(py38) [idies@cd263da0e476 workspace]$ cd Storage/prasadposture121/persistent/codes/N-body-master
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c  input.nbody_comp  nbody_comp    nbody_doc.pdf  nbody.h        out.txt  pk.nbody1.0  pk.zel    powerspec.c  tf_fit.c
+funcs.c        makefile          nbody_comp.c  nbody_funcs.c  out_multz.txt  pk.inp   pk.nbody8.0  power1.h  README.md
+(py38) [idies@cd263da0e476 N-body-master]$  make nbody_comp
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_comp.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -g -o nbody_comp nbody_comp.o nbody_funcs.o funcs.o allotarrays.o powerspec.o tf_fit.o -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c  input.nbody_comp  nbody_comp    nbody_doc.pdf  nbody.h        out.txt  pk.nbody1.0  pk.zel    powerspec.c  tf_fit.c
+funcs.c        makefile          nbody_comp.c  nbody_funcs.c  out_multz.txt  pk.inp   pk.nbody8.0  power1.h  README.md
+(py38) [idies@cd263da0e476 N-body-master]$ more input.nobody_comp
+more: stat of input.nobody_comp failed: No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ more input.nbody_comp
+-18072002 10
+0.6704  0.3183  0.6817  0.9619 
+0.04902  0.8347
+512 512 512 2  0.07
+0  1
+0.008  0.004
+4
+8.0 5.0 3.0 1.0
+
+6
+13.0 11.0 10.0 9.0 8.0 7.0
+
+#------ above are the parameter values (user may change this) --------
+#----------------------------------------------------
+seed  Nbin
+hh    omega_m   omega_l         spectral_index
+omega_baryon    sigma_8
+N1 N2 N3 fraction_fill LL
+output_flag     pk_flag
+a_initial       delta_a
+Noutput (# of redshifts where outputs are required)
+List of the redshift values
+#--------------------------------------------------------
+
+#-------- below are some samples of N1,N2,N3,MM,LL for NF=1 ---------------
+8  8  8  512  0.14
+16  16  16  4096  0.14
+32  32  32  32768 0.14
+128 128 128 2097152 0.14
+192  192  192  7077888  0.14
+256  256  256  16777216  0.14
+384  384  384  56623104  0.14
+512  512  512  134217728  0.14
+640  640  640  262144000 0.14
+768  768  768  452984832  0.14
+1280  1280  1280  2097152000  0.14
+
+#-------- below are some samples of N1,N2,N3,MM,LL for NF=2 ---------------
+16  16  16  512  0.07
+32  32  32  4096  0.07
+256  256  256  2097152  0.07
+512  512  512  16777216  0.07
+768  768  768  56623104  0.07
+1024  1024  1024  134217728  0.07
+1280  1280  1280  262144000  0.07
+1344  1344  1344  303464448  0.07
+1408  1408  1408  348913664 0.07
+1536  1536  1536  452984832  0.07
+2048  2048  2048  1073741824 0.07
+2080  2080  2080  1124864000  0.07
+2112  2112  2112  1177583616  0.07
+2144  2144  2144  1231925248  0.07
+
+256  256  256  2097152  0.033
+512  512  512  16777216  0.033
+2144  2144  2144  1231925248  0.033
+
+
+2144  2144  2144  1231925248  0.017
+(py38) [idies@cd263da0e476 N-body-master]$ 
+(py38) [idies@cd263da0e476 N-body-master]$ vi input.nbody_comp
+(py38) [idies@cd263da0e476 N-body-master]$ 
