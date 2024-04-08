@@ -1,0 +1,178 @@
+(py38) [idies@cd263da0e476 ~]$ cd workspace/
+(py38) [idies@cd263da0e476 workspace]$ cd Storage/prasadposture121/persistent/codes/N-body-master/
+(py38) [idies@cd263da0e476 N-body-master]$ ./nbody_comp
+DM_m= 1.089507e-02 10^10 M_sun   L_box=1.792000e+01 Mpc
+No of threads = 16
+norml=5.960464e-08      CC=5.828947e+00 rho_b_inv=8.000000e+00
+ok delta_fill time = 3.931170e+00
+ok cal_pow time = 5.097426e+00
+ok Zel_move time = 2.196800e+00
+ok cic = 6.075892e-01
+delta_aap=3.111102e-03
+(z=8.0) time for  Nbody loop = 5.385919e+01     time for write output = 1.085385e+00
+delta_aap=3.555626e-03
+(z=5.0) time for  Nbody loop = 3.104452e+01     time for write output = 1.117169e+00
+delta_aap=3.333464e-03
+(z=3.0) time for  Nbody loop = 4.788266e+01     time for write output = 8.579230e-01
+delta_aap=1.999497e-03
+(z=1.0) time for  Nbody loop = 1.416703e+02     time for write output = 8.281668e-01
+number of step = 116
+done. Total time taken = 0hr 5min 23sec
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c     makefile      nbody_doc.pdf  out_multz.txt       output.nbody_5.000  pk.inp       pk.nbody5.0  power1.h     tf_fit.c
+funcs.c           nbody_comp    nbody_funcs.c  output.nbody_1.000  output.nbody_8.000  pk.nbody1.0  pk.nbody8.0  powerspec.c
+input.nbody_comp  nbody_comp.c  nbody.h        output.nbody_3.000  out.txt             pk.nbody3.0  pk.zel       README.md
+(py38) [idies@cd263da0e476 N-body-master]$ du -h output.nbody_1.000
+49M     output.nbody_1.000
+(py38) [idies@cd263da0e476 N-body-master]$ mv out
+mv: missing destination file operand after 'out'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_*../
+mv: missing destination file operand after 'output.nbody_*../'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ mv out
+mv: missing destination file operand after 'out'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_*../
+mv: missing destination file operand after 'output.nbody_*../'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ pwd
+/home/idies/workspace/Storage/prasadposture121/persistent/codes/N-body-master
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_*../FoF-Halo-finder-master/.
+mv: missing destination file operand after 'output.nbody_*../FoF-Halo-finder-master/.'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_*../FoF-Halo-finder-master
+mv: missing destination file operand after 'output.nbody_*../FoF-Halo-finder-master'
+Try 'mv --help' for more information.
+(py38) [idies@cd263da0e476 N-body-master]$ mv-output.nbody_*../FoF-Halo-finder-master
+bash: mv-output.nbody_*../FoF-Halo-finder-master: No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+(py38) [idies@cd263da0e476 N-body-master]$ cd..
+bash: cd..: command not found
+(py38) [idies@cd263da0e476 N-body-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd Storage/prasadposture121/persistent/codes/N-body-master
+bash: cd: Storage/prasadposture121/persistent/codes/N-body-master: No such file or directory
+(py38) [idies@cd263da0e476 codes]$ Storage/prasadposture121/persistent/codes/N-body-master/
+bash: Storage/prasadposture121/persistent/codes/N-body-master/: No such file or directory
+(py38) [idies@cd263da0e476 codes]$ ls
+FoF-Halo-finder-master  N-body-master  N-body-utils  Plotting  ReionYuga-master  ReionYuga-master.tar
+(py38) [idies@cd263da0e476 codes]$ N-body-master
+bash: N-body-master: command not found
+(py38) [idies@cd263da0e476 codes]$ cd N-body-master
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c     makefile      nbody_doc.pdf  out_multz.txt       output.nbody_5.000  pk.inp       pk.nbody5.0  power1.h     tf_fit.c
+funcs.c           nbody_comp    nbody_funcs.c  output.nbody_1.000  output.nbody_8.000  pk.nbody1.0  pk.nbody8.0  powerspec.c
+input.nbody_comp  nbody_comp.c  nbody.h        output.nbody_3.000  out.txt             pk.nbody3.0  pk.zel       README.md
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_*.. /FoF-Halo-finder-master/.
+mv: cannot stat 'output.nbody_*..': No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_1.000 /FoF-Halo-finder-master/.
+mv: cannot move 'output.nbody_1.000' to '/FoF-Halo-finder-master/.': No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_1.000 Storage/prasadposture121/persistent/codes/FoF-Halo-finder-master
+mv: cannot move 'output.nbody_1.000' to 'Storage/prasadposture121/persistent/codes/FoF-Halo-finder-master': No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_1.000 Storage/prasadposture121/persistent/codes/FoF-Halo-finder-master/.
+mv: cannot move 'output.nbody_1.000' to 'Storage/prasadposture121/persistent/codes/FoF-Halo-finder-master/.': No such file or directory
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_* ../FoF-Hal0-finder-master
+mv: target '../FoF-Hal0-finder-master' is not a directory
+(py38) [idies@cd263da0e476 N-body-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd N-body-master
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_* ../FoF-Halo-finder-master
+(py38) [idies@cd263da0e476 N-body-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd FoF-Halo-finder-master
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ ls
+allotarrays.c  fof_main.c            input.nbody_comp  nbody.h             output.nbody_5.000  power1.h     tf_fit.c
+FoF_doc.pdf    funcs.c               makefile          output.nbody_1.000  output.nbody_8.000  powerspec.c
+fof_main       halo_catalogue_1.000  nbody_funcs.c     output.nbody_3.000  out.txt             README.md
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ make fof_main
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ fof_main.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -g -o fof_main fof_main.o nbody_funcs.o funcs.o allotarrays.o powerspec.o tf_fit.o -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ ./fof_main
+(8.0)nbody output_flag=0, NF=2
+Total number of clusters=1635
+(for 8.0) Time taken = 0hr 0min 9sec
+done FoF. Total time taken = 0hr 0min 9sec
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ ls
+allotarrays.c  fof_main.c            halo_catalogue_8.000  nbody_funcs.c       output.nbody_3.000  out.txt      README.md
+FoF_doc.pdf    funcs.c               input.nbody_comp      nbody.h             output.nbody_5.000  power1.h     tf_fit.c
+fof_main       halo_catalogue_1.000  makefile              output.nbody_1.000  output.nbody_8.000  powerspec.c
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ mv halo.nbody_* ../N-body-utils
+mv: cannot stat 'halo.nbody_*': No such file or directory
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ mv halo.catalogue_* ../N-body-utils
+mv: cannot stat 'halo.catalogue_*': No such file or directory
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd N-body-utils
+(py38) [idies@cd263da0e476 N-body-utils]$ make density
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ density.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o density  density.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 N-body-utils]$ ls
+allotarrays.c  core.1046   density               halo_catalogue_8.000  nbody_funcs.c       output.nbody_5.000  tf_fit.c
+cal_pow        core.1074   density.c             input.nbody_comp      nbody.h             output.nbody_8.000
+cal_pow.c      core.20814  funcs.c               ionz_funcs.c          output.nbody_1.000  power1.h
+core.1018      core.20843  halo_catalogue_1.000  makefile              output.nbody_3.000  powerspec.c
+(py38) [idies@cd263da0e476 N-body-utils]$ ./density
+ok read nbody output = 7.840583e+06
+ok read halo catalogue = 2.256580e-03
+No of threads = 16
+No. of halos =1635
+No. of particles =2097152
+ok cic_vmass= 1.157916e+00
+N1=64, N2= 64, N3=64, LL=0.280000
+done. Total time taken = 0hr 0min 2sec
+(py38) [idies@cd263da0e476 N-body-utils]$ ls
+allotarrays.c  core.1046   density       halo_catalogue_1.000  ionz_funcs.c   output.nbody_1.000  power1.h
+cal_pow        core.1074   density.c     halo_catalogue_8.000  makefile       output.nbody_3.000  powerspec.c
+cal_pow.c      core.20814  DM_map_8.000  Halo_map_8.000        nbody_funcs.c  output.nbody_5.000  tf_fit.c
+core.1018      core.20843  funcs.c       input.nbody_comp      nbody.h        output.nbody_8.000
+(py38) [idies@cd263da0e476 N-body-utils]$ 
