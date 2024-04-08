@@ -1,0 +1,4 @@
+1. Hamiltonian MCMC (definitely)
+1. Automate ARIMA to predict stock market and earn lot of money
+2. Doing the same for IPL dataset to make Dream11
+3. 
