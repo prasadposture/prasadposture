@@ -1,0 +1,130 @@
+(py38) [idies@cd263da0e476 ~]$ cd workspace/
+(py38) [idies@cd263da0e476 workspace]$ cd Storage/prasadposture121/persistent/codes/N-body-master
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c  funcs.c   nbody_comp    nbody_doc.pdf  nbody.h        out.txt  pk.nbody1.0  pk.nbody5.0  pk.zel    powerspec.c  tf_fit.c
+core.205       makefile  nbody_comp.c  nbody_funcs.c  out_multz.txt  pk.inp   pk.nbody3.0  pk.nbody8.0  power1.h  README.md
+(py38) [idies@cd263da0e476 N-body-master]$ make nbody_comp
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_comp.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -g -o nbody_comp nbody_comp.o nbody_funcs.o funcs.o allotarrays.o powerspec.o tf_fit.o -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 N-body-master]$ ./nbody_comp
+Segmentation fault (core dumped)
+(py38) [idies@cd263da0e476 N-body-master]$ make nbody_comp
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_comp.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -g -o nbody_comp nbody_comp.o nbody_funcs.o funcs.o allotarrays.o powerspec.o tf_fit.o -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 N-body-master]$ ./nbody_comp
+DM_m= 1.089507e-02 10^10 M_sun   L_box=8.960000e+00 Mpc
+No of threads = 16
+norml=4.768372e-07      CC=7.286184e-01 rho_b_inv=8.000000e+00
+ok delta_fill time = 5.127899e-01
+ok cal_pow time = 7.675712e-01
+ok Zel_move time = 3.045092e-01
+ok cic = 9.582281e-02
+delta_aap=3.111102e-03
+(z=8.0) time for  Nbody loop = 7.798820e+00     time for write output = 2.619585e-01
+delta_aap=3.555626e-03
+(z=5.0) time for  Nbody loop = 4.039323e+00     time for write output = 2.278215e-01
+delta_aap=3.333464e-03
+(z=3.0) time for  Nbody loop = 7.822972e+00     time for write output = 2.254020e-01
+delta_aap=1.999497e-03
+(z=1.0) time for  Nbody loop = 1.948395e+01     time for write output = 2.795561e-01
+number of step = 116
+done. Total time taken = 0hr 0min 46sec
+(py38) [idies@cd263da0e476 N-body-master]$ ls
+allotarrays.c  funcs.c           nbody_comp     nbody_funcs.c  output.nbody_1.000  output.nbody_8.000  pk.nbody1.0  pk.nbody8.0  powerspec.c
+core.123       input.nbody_comp  nbody_comp.c   nbody.h        output.nbody_3.000  out.txt             pk.nbody3.0  pk.zel       README.md
+core.205       makefile          nbody_doc.pdf  out_multz.txt  output.nbody_5.000  pk.inp              pk.nbody5.0  power1.h     tf_fit.c
+(py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_* ../FoF-Halo-finder-master
+(py38) [idies@cd263da0e476 N-body-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd FoF-Halo-finder-master
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ ls
+allotarrays.c  fof_main.c            halo_catalogue_8.000  nbody_funcs.c       output.nbody_3.000  out.txt      README.md
+FoF_doc.pdf    funcs.c               input.nbody_comp      nbody.h             output.nbody_5.000  power1.h     tf_fit.c
+fof_main       halo_catalogue_1.000  makefile              output.nbody_1.000  output.nbody_8.000  powerspec.c
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ make fof_main
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ fof_main.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -g -o fof_main fof_main.o nbody_funcs.o funcs.o allotarrays.o powerspec.o tf_fit.o -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ ./fof_main
+(8.0)nbody output_flag=0, NF=2
+Total number of clusters=194
+(for 8.0) Time taken = 0hr 0min 2sec
+(5.0)nbody output_flag=0, NF=2
+Total number of clusters=599
+(for 5.0) Time taken = 0hr 0min 1sec
+(3.0)nbody output_flag=0, NF=2
+Total number of clusters=843
+(for 3.0) Time taken = 0hr 0min 3sec
+(1.0)nbody output_flag=0, NF=2
+Total number of clusters=898
+(for 1.0) Time taken = 0hr 0min 8sec
+done FoF. Total time taken = 0hr 0min 16sec
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ make density
+make: *** No rule to make target 'density'.  Stop.
+(py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ cd ..
+(py38) [idies@cd263da0e476 codes]$ cd N-body-utils
+(py38) [idies@cd263da0e476 N-body-utils]$ make density
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ density.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o density  density.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 N-body-utils]$ ./density
+ok read nbody output = 7.967046e+06
+ok read halo catalogue = 1.810323e-03
+No of threads = 16
+No. of halos =194
+No. of particles =262144
+ok cic_vmass= 1.444653e-01
+N1=32, N2= 32, N3=32, LL=0.280000
+ok read nbody output = 4.234083e-01
+ok read halo catalogue = 2.216771e-03
+No. of halos =599
+No. of particles =262144
+ok cic_vmass= 1.472828e-01
+N1=32, N2= 32, N3=32, LL=0.280000
+ok read nbody output = 2.528295e-01
+ok read halo catalogue = 2.640996e-03
+No. of halos =843
+No. of particles =262144
+ok cic_vmass= 1.448752e-01
+N1=32, N2= 32, N3=32, LL=0.280000
+ok read nbody output = 4.644376e-01
+ok read halo catalogue = 1.956428e-03
+No. of halos =898
+No. of particles =262144
+ok cic_vmass= 1.446307e-01
+N1=32, N2= 32, N3=32, LL=0.280000
+done. Total time taken = 0hr 0min 2sec
+(py38) [idies@cd263da0e476 N-body-utils]$ ls
+allotarrays.c  core.1074   DM_map_1.000  halo_catalogue_1.000  Halo_map_3.000    makefile            output.nbody_5.000
+cal_pow        core.20814  DM_map_3.000  halo_catalogue_3.000  Halo_map_5.000    nbody_funcs.c       output.nbody_8.000
+cal_pow.c      core.20843  DM_map_5.000  halo_catalogue_5.000  Halo_map_8.000    nbody.h             power1.h
+core.1018      density     DM_map_8.000  halo_catalogue_8.000  input.nbody_comp  output.nbody_1.000  powerspec.c
+core.1046      density.c   funcs.c       Halo_map_1.000        ionz_funcs.c      output.nbody_3.000  tf_fit.c
+(py38) [idies@cd263da0e476 N-body-utils]$ ^C
+(py38) [idies@cd263da0e476 N-body-utils]$ 
