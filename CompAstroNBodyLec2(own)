@@ -3,6 +3,9 @@
 (py38) [idies@cd263da0e476 N-body-master]$ ls
 allotarrays.c  funcs.c   nbody_comp    nbody_doc.pdf  nbody.h        out.txt  pk.nbody1.0  pk.nbody5.0  pk.zel    powerspec.c  tf_fit.c
 core.205       makefile  nbody_comp.c  nbody_funcs.c  out_multz.txt  pk.inp   pk.nbody3.0  pk.nbody8.0  power1.h  README.md
+
+[input.nbody_comp file should be here]
+
 (py38) [idies@cd263da0e476 N-body-master]$ make nbody_comp
 gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_comp.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
 gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
@@ -47,6 +50,9 @@ done. Total time taken = 0hr 0min 46sec
 allotarrays.c  funcs.c           nbody_comp     nbody_funcs.c  output.nbody_1.000  output.nbody_8.000  pk.nbody1.0  pk.nbody8.0  powerspec.c
 core.123       input.nbody_comp  nbody_comp.c   nbody.h        output.nbody_3.000  out.txt             pk.nbody3.0  pk.zel       README.md
 core.205       makefile          nbody_doc.pdf  out_multz.txt  output.nbody_5.000  pk.inp              pk.nbody5.0  power1.h     tf_fit.c
+
+[copy input.nbody_comp and move outputs]
+
 (py38) [idies@cd263da0e476 N-body-master]$ mv output.nbody_* ../FoF-Halo-finder-master
 (py38) [idies@cd263da0e476 N-body-master]$ cd ..
 (py38) [idies@cd263da0e476 codes]$ cd FoF-Halo-finder-master
@@ -80,6 +86,9 @@ Total number of clusters=898
 done FoF. Total time taken = 0hr 0min 16sec
 (py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ make density
 make: *** No rule to make target 'density'.  Stop.
+
+[copy input.nbody_comp and move outputs of catalogue and other to utils]
+
 (py38) [idies@cd263da0e476 FoF-Halo-finder-master]$ cd ..
 (py38) [idies@cd263da0e476 codes]$ cd N-body-utils
 (py38) [idies@cd263da0e476 N-body-utils]$ make density
