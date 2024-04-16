@@ -1,0 +1,165 @@
+(py38) [idies@cd263da0e476 ~]$ cd workspace/
+(py38) [idies@cd263da0e476 workspace]$ cd Storage/prasadposture121/persistent/codes/ReionYuga-master
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 10
+No of threads = 16
+Segmentation fault (core dumped)
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ make cal_power
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ cal_power.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ nbody_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ allotarrays.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c  -g   -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ powerspec.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ tf_fit.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+gcc -c -g -I/home/idies/workspace/Storage/midsuman/AA_609/soft/include/ ionz_funcs.c -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm 
+gcc -g -o cal_power  cal_power.o nbody_funcs.o allotarrays.o funcs.o powerspec.o tf_fit.o ionz_funcs.o  -L/home/idies/workspace/Storage/midsuman/AA_609/soft/lib/  -fopenmp -lfftw3f_omp -lfftw3f -lm
+rm -rf *.o
+rm -rf *~
+(py38) [idies@cd263da0e476 ReionYuga-master]$ ./cal_power
+128 128 128 0.280000 5
+No of threads = 16
+128 128 128 0.280000
+OK
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp DM_power_1.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp DM_power_3.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp DM_power_5.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp DM_power_8.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp Halo_power_1.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp Halo_power_3.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp Halo_power_5.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ cp Halo_power_8.000_5 ../512_128
+(py38) [idies@cd263da0e476 ReionYuga-master]$ 
