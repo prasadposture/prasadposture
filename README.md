@@ -10,13 +10,13 @@
 </div>
 <h3 align="center">"Curiosity Is The Essence Of Our Existence."</h3>
 <h2 > About Me </h2>
-I hold a Bachelor's degree in Mathematics with a specialization in Data Analytics. Throughout my academic journey, I extensively delved into the realms of mathematical theory and practical application. My proficiency encompasses programming languages such as Python and R, which were instrumental in my pursuit of data analysis.
+I have a Bachelor's degree in Mathematics with a focus on Data Analytics. During my studies, I explored both theoretical and practical aspects of mathematics and became proficient in programming languages like Python and R, essential for data analysis.
 <br><br>
-During my three-year undergraduate program, I acquired a solid foundation in mathematical principles, including calculus, linear and abstract algebra, real and complex analysis, and the study of metric spaces. This comprehensive background not only honed my analytical skills but also laid a strong mathematical foundation for advanced data analysis.
+In my three-year undergraduate program, I built a strong foundation in mathematical principles, including calculus, linear and abstract algebra, real and complex analysis, and metric spaces. This background enhanced my analytical skills and prepared me for advanced data analysis.
 <br><br>
-In addition to my mathematical studies, I dedicated two years to a data analytics course that covered a wide array of topics. These included statistics, probability theory, database management, machine learning algorithms, and an introduction to artificial intelligence. My passion for data analysis emerged from this experience, as I found great satisfaction in uncovering insights and constructing predictive models.
+Additionally, I spent two years studying data analytics, covering topics such as statistics, probability theory, database management, machine learning algorithms, and introductory artificial intelligence. This experience sparked my passion for data analysis, as I enjoyed uncovering insights and creating predictive models.
 <br><br>
-I am known for my aptitude as a quick learner, always eager to embrace new technologies and methodologies in the ever-evolving field of data science. Currently, I am pursuing a Master's degree in Astronomy at the prestigious Indian Institute of Technology (IIT) Indore. My overarching goal is to harness my multidisciplinary background in astronomy, data science, and mathematics to contribute significantly to the burgeoning field of data-driven astronomy. My aspiration is to actively engage in cutting-edge space research, utilizing my expertise to enhance our understanding of the cosmos through rigorous data analysis and modeling.
+I am in the second year of my Master's degree in Astronomy at the Indian Institute of Technology (IIT) Indore. My research focuses on "Emulating 21cm signal using transformers," which integrates astronomy and data science. I aim to use my expertise in these fields to contribute to data-driven astronomy and advance our understanding of the cosmos through data analysis and modeling.
 <br>
 <h2> Skills </h2>
 <b>Tech Skills :</b> Python, R, SQL, Tableau<br>
