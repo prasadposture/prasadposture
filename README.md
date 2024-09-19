@@ -1,4 +1,4 @@
-![GitHub](https://user-images.githubusercontent.com/95558446/223696873-15982f95-385e-4f58-b8ce-f7a0ccc43664.png)
+<!--![GitHub](https://user-images.githubusercontent.com/95558446/223696873-15982f95-385e-4f58-b8ce-f7a0ccc43664.png) -->
 <div align='center'>
 <a href="https://www.linkedin.com/in/prasad-posture-6a3a77215/" target="blank"><img align="center" src="https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/" alt="Prasad Posture" height="20" width="100" /></a>
  
