@@ -2,10 +2,14 @@
 <div align='center'>
 <a href="https://www.linkedin.com/in/prasad-posture-6a3a77215/" target="blank"><img align="center" src="https://img.shields.io/badge/-Prasad Posture-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prasad-posture-6a3a77215/" alt="Prasad Posture" height="20" width="100" /></a>
  
-<a href="https://prasadposture.streamlit.app/">
-            <img align="center" src="https://raw.githubusercontent.com/prasadposture/prasadposture/main/LOGO%202.png" alt="Portfolio Website" 
-            style="width:90px;height:19px;border: 1px solid gray; border-radius: 2px;">
-        </a>
+<a href="https://github.com/prasadposture" target="_blank">
+    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" 
+    alt="GitHub Profile" style="width:19px;height:19px;border: 1px solid gray; border-radius: 2px; margin-right: 5px;">
+</a>
+<a href="https://github.com/prasadposture" target="_blank" 
+   style="text-decoration: none; color: inherit; font-weight: bold;">
+    prasadposture
+</a>
 <a href="https://www.kaggle.com/prasadposture121" target="blank"><img align="center" src="https://img.shields.io/badge/-prasadposture121-blue?style=flat-square&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/prasadposture121" alt="prasadposture121" height="20" width="100" /></a>
 </div>
 <h3 align="center">"Curiosity Is The Essence Of Our Existence."</h3>
